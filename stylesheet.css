@@ -490,7 +490,6 @@ section{
     font-size: 60px;
     padding: 90px;
     padding-bottom: 70px;
-
 }
 
 .main-text h2{
@@ -502,19 +501,12 @@ section{
     color: #0ef;
 }
 .portfolio-content{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit,minmax(35px,auto));
     grid-gap: 40px;
     margin-top:50px ;
 }
 
-/* .row{
-    padding: auto;
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    cursor: pointer;
-} */
 .row{
     position: relative;
     overflow: hidden;
@@ -554,6 +546,7 @@ section{
     color: #000000;
     font-size: 1rem;
     line-height: 1.8;
+    margin-bottom: 20px;
 }
 .layer i{
     color: #ff004f;
